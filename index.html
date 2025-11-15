@@ -495,6 +495,35 @@
             font-weight: 500;
         }
 
+        .blender-links {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #333;
+        }
+
+        .download-rapport {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .download-rapport:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .download-rapport i {
+            font-size: 1.1rem;
+        }
+
         /* Projects Section */
         .projects {
             background: #1a1a1a;
@@ -711,6 +740,7 @@
         .social-links {
             display: flex;
             gap: 1rem;
+            justify-content: center;
         }
 
         .social-link {
@@ -974,17 +1004,23 @@
                         <div class="blender-image">
                             <img src="blender-project1.jpg" alt="Projet Blender 1">
                             <div class="blender-overlay">
-                                <a href="blender-project1.blend1" download class="blender-link"><i class='bx bx-download'></i></a>
-                                <a href="blender-project1.jpg" target="_blank" class="blender-link"><i class='bx bx-image'></i></a>
+                                <a href="blender-project1.blend1" download class="blender-link" title="Télécharger .blend"><i class='bx bx-download'></i></a>
+                                <a href="blender-project1.jpg" target="_blank" class="blender-link" title="Voir l'image"><i class='bx bx-image'></i></a>
+                                <a href="rapport-tasse.pdf" download class="blender-link" title="Télécharger le rapport"><i class='bx bxs-file-pdf'></i></a>
                             </div>
                         </div>
                         <div class="blender-content">
                             <h3>Modélisation 3D d'une tasse stylisee</h3>
-                            <p>Modèle 3D stylisé d’une tasse avec couvercle, réalisé sur Blender. Création assistée via Python pour automatiser la modélisation.
+                            <p>Modèle 3D stylisé d'une tasse avec couvercle, réalisé sur Blender. Création assistée via Python pour automatiser la modélisation.</p>
                             <div class="blender-tech">
                                 <span>Blender</span>
                                 <span>3D Modeling</span>
                                 <span>Texturing</span>
+                            </div>
+                            <div class="blender-links">
+                                <a href="rapport-tasse.pdf" download class="download-rapport">
+                                    <i class='bx bxs-file-pdf'></i> Télécharger le rapport
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -993,17 +1029,23 @@
                         <div class="blender-image">
                             <img src="img2.png" alt="Projet Blender 2">
                             <div class="blender-overlay">
-                                <a href="tp1.blend" download class="blender-link"><i class='bx bx-download'></i></a>
-                                <a href="blender-project2.jpg" target="_blank" class="blender-link"><i class='bx bx-image'></i></a>
+                                <a href="tp1.blend" download class="blender-link" title="Télécharger .blend"><i class='bx bx-download'></i></a>
+                                <a href="blender-project2.jpg" target="_blank" class="blender-link" title="Voir l'image"><i class='bx bx-image'></i></a>
+                                <a href="rapport-table-chaise.pdf" download class="blender-link" title="Télécharger le rapport"><i class='bx bxs-file-pdf'></i></a>
                             </div>
                         </div>
                         <div class="blender-content">
-                            <h3>Modélisation et animation 3D d’une table et d’une chaise sous Blender</h3>
-                            <p>Modélisation et animation 3D d’une table et d’une chaise sous Blender, avec application de matériaux, d’éclairage et rendu réaliste.</p>
+                            <h3>Modélisation et animation 3D d'une table et d'une chaise sous Blender</h3>
+                            <p>Modélisation et animation 3D d'une table et d'une chaise sous Blender, avec application de matériaux, d'éclairage et rendu réaliste.</p>
                             <div class="blender-tech">
                                 <span>Blender</span>
                                 <span>Animation</span>
                                 <span>Rigging</span>
+                            </div>
+                            <div class="blender-links">
+                                <a href="rapport-table-chaise.pdf" download class="download-rapport">
+                                    <i class='bx bxs-file-pdf'></i> Télécharger le rapport
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -1012,17 +1054,23 @@
                         <div class="blender-image">
                             <img src="img3.jpg" alt="Projet Blender 3">
                             <div class="blender-overlay">
-                                <a href="scene3.blend" download class="blender-link"><i class='bx bx-download'></i></a>
-                                <a href="img3.jpg" target="_blank" class="blender-link"><i class='bx bx-image'></i></a>
+                                <a href="scene3.blend" download class="blender-link" title="Télécharger .blend"><i class='bx bx-download'></i></a>
+                                <a href="img3.jpg" target="_blank" class="blender-link" title="Voir l'image"><i class='bx bx-image'></i></a>
+                                <a href="rapport-donut.pdf" download class="blender-link" title="Télécharger le rapport"><i class='bx bxs-file-pdf'></i></a>
                             </div>
                         </div>
                         <div class="blender-content">
                             <h3>Donut</h3>
-                            <p>Modélisation 3D d’une donut et d’une tasse coffee sous Blender</p>
+                            <p>Modélisation 3D d'une donut et d'une tasse coffee sous Blender</p>
                             <div class="blender-tech">
                                 <span>Blender</span>
                                 <span>Environnement</span>
                                 <span>Particules</span>
+                            </div>
+                            <div class="blender-links">
+                                <a href="rapport-donut.pdf" download class="download-rapport">
+                                    <i class='bx bxs-file-pdf'></i> Télécharger le rapport
+                                </a>
                             </div>
                         </div>
                     </div>
